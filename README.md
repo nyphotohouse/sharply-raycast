@@ -31,6 +31,8 @@ Full search provides estimated used prices and thumbnails that the suggestions e
 
 ## Development
 
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the development, contribution sync, and Store release workflow.
+
 - `npm run build` — build and validate the command.
 - `npm run lint` — Raycast lint checks.
 - `npm run typecheck` — TypeScript checks.
