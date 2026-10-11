@@ -36,4 +36,4 @@ Full search provides estimated used prices and thumbnails that the suggestions e
 - `npm run typecheck` — TypeScript checks.
 - `npm test` — public request, response validation, and error handling tests.
 
-The manifest author should be replaced with your actual Raycast Store handle before publishing. The extension icon is copied from Sharply's favicon. This extension is separate from the Next.js application and needs no Sharply server changes.
+The extension icon is copied from Sharply's favicon. This extension is separate from the Next.js application and needs no Sharply server changes.

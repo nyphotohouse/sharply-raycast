@@ -1,10 +1,10 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "sharply",
-  "title": "Sharply",
+  "title": "Sharply Gear Search",
   "description": "Find photography gear and open its Sharply page.",
   "icon": "extension-icon.png",
-  "author": "camerongustavson",
+  "author": "flohhhhh",
   "license": "MIT",
   "categories": [
     "Productivity",
@@ -24,7 +24,8 @@
     "dev": "ray develop",
     "lint": "ray lint",
     "typecheck": "tsc --noEmit",
-    "test": "tsx --test tests/*.test.ts"
+    "test": "tsx --test tests/*.test.ts",
+    "publish": "npx @raycast/api@latest publish"
   },
   "dependencies": {
     "@raycast/api": "latest",
@@ -38,5 +39,8 @@
     "prettier": "^3.0.0",
     "tsx": "^4.0.0",
     "typescript": "^5.8.0"
-  }
+  },
+  "platforms": [
+    "macOS"
+  ]
 }
